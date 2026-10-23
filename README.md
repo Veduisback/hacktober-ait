@@ -1,4 +1,4 @@
-# 🏥 AI Hospital Supply-Chain Disruption Analyst
+# 🏥 AI Hospital Supply-Chain Disruption Analyst.
 
 > **Hacktoberfest 2026 Submission** · Theme: Open-Source LLMs  
 > 100% local · zero paid APIs · MIT License
