@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────────────────────
+#  AI Hospital Supply-Chain Disruption Analyst – Configuration
+# ─────────────────────────────────────────────────────────────
+# Swap any model name here; nothing else changes in the code.
+
+ollama:
+  base_url: "http://localhost:11434"
+  chat_model: "qwen2.5:7b"        # alternatives: gemma3:4b | llama3.1:8b | mistral:7b
+  embed_model: "nomic-embed-text"  # alternative: bge-m3 (better Hindi)
+  timeout_s: 120
+  max_retries: 2
+
+database:
+  sqlite_path: "data/hospital.db"
+
+chroma:
+  persist_dir: "data/chroma_db"
+  collection_name: "guidelines"
+
+forecast:
+  window_days: 7          # moving-average window (days)
+  alpha: 0.3              # exponential-smoothing alpha
+  horizon_days: 30        # forecast horizon (days)
+
+risk:
+  high_risk_gap_days: 3   # stock-out ≤ ETA+3 days → HIGH risk
+  expiry_warn_days: 30    # flag stock expiring within 30 days
+  critical_expiry_days: 7 # flag stock expiring within 7 days
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+app:
+  title: "AI Hospital Supply-Chain Disruption Analyst"
+  version: "1.0.0"
+  default_facility: "Facility-A"

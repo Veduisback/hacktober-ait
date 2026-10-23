@@ -1,0 +1,24 @@
+From: compliance@medicheck.in
+To: pharmacy@facilityA.gov.in
+Date: 23 Oct 2026
+Subject: Quality Hold – Paracetamol Batch BATCH-PAR-002
+
+Dear Pharmacy Team,
+
+Our quality control laboratory has flagged Batch BATCH-PAR-002 of
+Paracetamol 500mg tablets for a stability concern. The batch expiry date
+is 05 Nov 2026, which is only 13 days away.
+
+Given your current consumption rate and the approaching expiry, we recommend
+immediate review of this batch. If the batch cannot be fully consumed before
+expiry, please initiate inter-facility transfer to a higher-consumption
+facility.
+
+Additionally, a replacement shipment from Batch BATCH-PAR-003 will be
+available in 7 days.
+
+Please acknowledge receipt of this notice.
+
+Regards,
+Quality Compliance Team
+MediCheck Laboratories

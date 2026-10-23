@@ -1,0 +1,17 @@
+facility_id,item_id,qty,batch_no,expiry_date,as_of_date
+Facility-A,insulin,150,BATCH-INS-001,2026-12-31,2026-10-23
+Facility-A,paracetamol,800,BATCH-PAR-001,2026-11-15,2026-10-23
+Facility-A,paracetamol,200,BATCH-PAR-002,2026-11-05,2026-10-23
+Facility-A,amoxicillin,300,BATCH-AMX-001,2027-03-01,2026-10-23
+Facility-A,iv_saline,500,BATCH-SAL-001,2027-06-01,2026-10-23
+Facility-A,surgical_gloves,1200,BATCH-GLV-001,,2026-10-23
+Facility-A,metformin,250,BATCH-MET-001,2027-01-15,2026-10-23
+Facility-A,oxygen_cylinder,20,BATCH-OXY-001,,2026-10-23
+Facility-B,insulin,900,BATCH-INS-B01,2027-02-28,2026-10-23
+Facility-B,paracetamol,1500,BATCH-PAR-B01,2027-01-01,2026-10-23
+Facility-B,amoxicillin,600,BATCH-AMX-B01,2027-04-15,2026-10-23
+Facility-B,iv_saline,200,BATCH-SAL-B01,2027-05-01,2026-10-23
+Facility-B,metformin,800,BATCH-MET-B01,2027-02-01,2026-10-23
+Facility-C,insulin,400,BATCH-INS-C01,2027-01-31,2026-10-23
+Facility-C,surgical_gloves,3000,BATCH-GLV-C01,,2026-10-23
+Facility-C,iv_saline,1000,BATCH-SAL-C01,2027-04-01,2026-10-23
