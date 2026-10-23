@@ -270,11 +270,3 @@ extraction, forecast, risk, recommendation, and citations.
 
 ---
 
-## 🏆 Hackathon Criteria
-
-| Criterion | How we meet it |
-|---|---|
-| **Usability** | Real stock-out problem, AI is load-bearing (not cosmetic), Hindi support |
-| **Creativity** | ReAct agent + RAG + forecasting + risk engine — not a thin wrapper |
-| **Scalability** | SQLite→Postgres path, parallel forecasting, district rollup design |
-| **Adaptability** | One config value to swap model, FastAPI for integration, extensible tool list |
